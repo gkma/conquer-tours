@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "plugins": ["prettier", "react-hooks"],
+  "rules": {
+    "comma-dangle": "off",
+    "import/extensions": ["js", "jsx"],
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": [1]
+  }
+}
